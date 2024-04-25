@@ -1,0 +1,65 @@
+#window{
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+.swapbox_select {
+    width: 50%;
+    float: left;
+}
+.swapbox{
+    overflow: auto;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #2f2f2f;
+    border-radius: 20px;
+    border: 1px solid #565656;
+}
+#amount_box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-left: 50%;
+}
+#a{
+    width: 96%;
+    height: 100%;
+}
+.token_select{
+    padding:5px 0;
+    background-color: blueviolet;
+}
+.token_select:hover{
+    background-color: #cce208;
+    cursor: pointer;
+    
+}
+.token_row{
+    padding: 5px 10px;
+}
+.token_row:hover{
+    background-color: #eb1414;
+    cursor: pointer;
+}
+.gas_estimate_label{
+    padding:5px;
+}
+.modal-body{
+    height: 30%;
+    width: min-content;
+    overflow: scroll;
+    background-color: aqua;
+    margin-bottom: 100%;  
+}
+#modal_list_token{
+    display: none; /* Inicialmente oculta la lista */
+    opacity: 0; /* Inicialmente con opacidad 0 */
+    transition: opacity 0.5s; /* Transición suave de opacidad */
+  }
+
+  
